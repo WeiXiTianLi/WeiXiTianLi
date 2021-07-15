@@ -1,1 +1,109 @@
+<<<<<<< HEAD
 维系天理 launcher.zip
+=======
+<<<<<<< HEAD
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <meta charset="UTF-8">  
+        <title></title>  
+    </head>  
+    <body>  
+        <a href="321.png" download="test.png">点击下载</a>    
+    </body>  
+=======
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+
+    <style>
+        #app {
+            font-family: Avenir, Helvetica, Arial, sans-serif;
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 60px;
+        }
+        
+        a,
+        button {
+            color: #4fc08d;
+        }
+        
+        #show {
+            color: #b1b1b1;
+        }
+        
+        button {
+            background: none;
+            border: solid 3px;
+            border-radius: 2em;
+            font: inherit;
+            padding: 0.75em 2em;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background: #2c3e5059;
+            border: solid 3px;
+            border-radius: 2em;
+            font: inherit;
+            padding: 0.75em 2em;
+        }
+        
+        button:checked {
+            background: #2c3e50;
+        }
+        
+        #show {
+            background: none;
+            border: solid 3px;
+            border-radius: 1.33em;
+            font: inherit;
+            padding: 0.50em 2em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <p>
+            查看更多
+            <a href='https://yuanshen.weixitianlizhi.ren/' target="_blank" rel="noopener">天理系统 &amp; 天理地图</a>.
+        </p>
+        <button id='down' @click="download">下载</button>
+        <p></p>
+        <button id='show' @click="showGit">查看Git</button2>
+    </div>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                MainIndex: 'https://yuanshen.weixitianlizhi.ren/',
+                MainDownloadUrl: 'https://yuanshen.weixitianlizhi.ren/download/TianLi_setup_Win10.exe',
+
+                message: '欢迎使用天理系统！',
+            },
+            methods: {
+                download() {
+                    window.open(app.MainDownloadUrl);
+                },
+                showGit() {
+                    window.open("https://github.com/GengGode/WeiXiTianTianLi");
+                }
+            }
+
+        })
+    </script>
+</body>
+
+
+>>>>>>> 7ec62bd (vue页面)
+</html>
+>>>>>>> c1a402d (vue页面)
