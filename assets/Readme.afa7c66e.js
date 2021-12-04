@@ -1,0 +1,1 @@
+import{u as t,o,g as r,w as a,k as n}from"./vendor.4020b383.js";/* empty css                  */import{_ as s}from"./index.f45249f1.js";const c={},_=n("Readme");function f(d,i){const e=t;return o(),r(e,{type:"primary",plain:""},{default:a(()=>[_]),_:1})}var u=s(c,[["render",f]]);export{u as default};
