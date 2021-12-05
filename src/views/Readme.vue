@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Readme from '../assets/README.md';
 import 'github-markdown-css/github-markdown-light.css'
 
