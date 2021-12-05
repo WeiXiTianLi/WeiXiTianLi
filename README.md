@@ -12,7 +12,3 @@
 腾讯云：https://weixitianlizhi.ren
 
 Github Pages: https://weixitianli.github.io/WeiXiTianTianLi/
-
-## 网页开发者的编程水平
-
-HTML是一门编程语言
