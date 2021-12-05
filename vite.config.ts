@@ -19,5 +19,5 @@ export default defineConfig({
     }),
     Markdown(),
   ],
-  base: "/WeiXiTianTianLi/",
+  // base: "/WeiXiTianTianLi/",
 });
