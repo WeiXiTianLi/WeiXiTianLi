@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import router from '../router';
+import { ref } from 'vue';
+
 let url = `https://${window.location.host}`;
 /* 针对GitHub做的兼容 */
 if (/github/.test(url)) {
@@ -9,7 +11,8 @@ if (/github/.test(url)) {
 const handleSelect = (key: any, keyPath: any) => {
   switch (keyPath[0]) {
     case '1':
-      router.push({ path: '/readme' })
+      loadView();
+      router.push({ path: '/readme' });
       break;
     case '2':
       switch (keyPath[1]) {
@@ -21,10 +24,15 @@ const handleSelect = (key: any, keyPath: any) => {
       break;
   }
 }
+const isLoading = ref(false)
+const loadView = () => {
+  isLoading.value = true;
+  setTimeout(() => isLoading.value = false, 1000)
+}
 </script>
 
 <template>
-  <el-menu mode="horizontal" @select="handleSelect">
+  <el-menu v-loading.fullscreen="isLoading" mode="horizontal" @select="handleSelect">
     <el-link :href="url" :underline="false">
       <span class="title">天理地图</span>
     </el-link>

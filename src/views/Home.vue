@@ -5,6 +5,10 @@ import paimeng_image from '../assets/paimeng_image.png'
 
 const downloadDialogVisible = ref(false)
 const isLoading = ref(false)
+const loadView = () => {
+  isLoading.value = true
+  setTimeout(() => isLoading.value = false, 10000)
+}
 const handleClose = (select: any) => {
   switch (select) {
     case 'gitee':
@@ -23,7 +27,7 @@ const handleClick = (from: any) => {
       downloadDialogVisible.value = true;
       break;
     case 'readme':
-      isLoading.value = true
+      loadView();
       router.push({ path: "/readme" })
       break;
   }
