@@ -12,6 +12,6 @@
 
 netlify（和主域名没什么区别，更新积极性：高）：https://www.weixitianlizhi.ren
 
-腾讯云COS（更新积极性：低）：https://yuanshen.weixitianlizhi.ren
+腾讯云COS（手动提交文件太麻烦了，更新积极性：低）：https://yuanshen.weixitianlizhi.ren
 
 ~~Github Pages: https://weixitianli.github.io/WeiXiTianTianLi/~~ （不再手动把编译后的文件推送到GitHub上了）
