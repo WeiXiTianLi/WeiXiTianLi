@@ -4,6 +4,7 @@ import router from "../router"
 import paimeng_image from '../assets/paimeng_image.png'
 
 const downloadDialogVisible = ref(false)
+const isLoading = ref(false)
 const handleClose = (select: any) => {
   switch (select) {
     case 'gitee':
@@ -22,6 +23,7 @@ const handleClick = (from: any) => {
       downloadDialogVisible.value = true;
       break;
     case 'readme':
+      isLoading.value = true
       router.push({ path: "/readme" })
       break;
   }
@@ -29,7 +31,7 @@ const handleClick = (from: any) => {
 </script>
 
 <template>
-  <div class="main">
+  <div class="main" v-loading="isLoading">
     <el-image class="logo" :src="paimeng_image" alt="failed" title="paimeng" />
     <h1>天理地图</h1>
     <p>麻麻再也不用担心我找不到神瞳了</p>
