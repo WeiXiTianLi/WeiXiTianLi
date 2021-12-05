@@ -6,6 +6,7 @@ import 'github-markdown-css/github-markdown-light.css'
 
 <template>
   <readme class="markdown-body" />
+  <el-backtop right="400" bottom="150" />
 </template>
 
 <style scoped>
