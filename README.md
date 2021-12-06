@@ -4,14 +4,23 @@
 
 是[TianLi](https://github.com/WeiXiTainLi/TianLi)项目的[网页](https://weixitianlizhi.ren)
 
-使用[Vue3](https://v3.cn.vuejs.org/) + [TypeScript](https://www.typescriptlang.org/zh/) + [Vite2](https://vitejs.cn/) + [Vue Router4](https://next.router.vuejs.org/zh/) + [Element Plus](https://element-plus.gitee.io/zh-CN/) + [Vuex](https://next.vuex.vuejs.org/zh/)开发
-
 ## 域名
 
-主域名（由netlify构建，构建积极性：高）：https://weixitianlizhi.ren & https://www.weixitianlizhi.ren
+主域名（由 netlify 构建，构建积极性：高）：https://weixitianlizhi.ren & https://www.weixitianlizhi.ren
 
-netlify（域名由neilify提供，页面由neilify构建，不会被墙，构建积极性：高）：https://weixitianli.netlify.app/
+netlify（域名由 neilify 提供，页面由 neilify 构建，不会被墙，构建积极性：高）：https://weixitianli.netlify.app/
 
-腾讯云COS（手动提交文件太麻烦了，构建积极性：低）：https://yuanshen.weixitianlizhi.ren
+腾讯云 COS（手动提交文件太麻烦了，构建积极性：低）：https://yuanshen.weixitianlizhi.ren
 
-~~Github Pages: https://weixitianli.github.io/WeiXiTianTianLi/~~ （不再手动把编译后的文件推送到GitHub上了）
+~~Github Pages: https://weixitianli.github.io/WeiXiTianTianLi/~~ （不再手动把编译后的文件推送到 GitHub 上了）
+
+## 项目依赖
+
+- [Vue3](https://github.com/vuejs/vue)
+- [TypeScript](https://github.com/microsoft/TypeScript)
+- [Vite2](https://github.com/vitejs/docs-cn)
+- [Vue Router4](https://github.com/vuejs/vue-router)
+- [Element Plus](https://github.com/element-plus/element-plus)
+- [Vuex](https://github.com/vuejs/vuex)
+- [vite-plugin-md](https://github.com/antfu/vite-plugin-md)
+- [github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
