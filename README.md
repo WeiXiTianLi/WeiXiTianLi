@@ -24,3 +24,16 @@ netlify（域名由 neilify 提供，页面由 neilify 构建，不会被墙，�
 - [Vuex](https://github.com/vuejs/vuex)
 - [vite-plugin-md](https://github.com/antfu/vite-plugin-md)
 - [github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
+
+## 如何开始编辑
+
+```bash
+# 克隆本仓库
+$ git clone https://github.com/WeiXiTianLi/WeiXiTianTianLi.git
+
+# 安装依赖
+$ npm install
+
+#启动开发服务器
+$ npm run dev
+```
