@@ -18,7 +18,7 @@ netlify（域名由 neilify 提供，页面由 neilify 构建，不会被墙，�
 
 - [Vue3](https://github.com/vuejs/vue)
 - [TypeScript](https://github.com/microsoft/TypeScript)
-- [Vite2](https://github.com/vitejs/docs-cn)
+- [Vite2](https://github.com/vitejs/vite)
 - [Vue Router4](https://github.com/vuejs/vue-router)
 - [Element Plus](https://github.com/element-plus/element-plus)
 - [Vuex](https://github.com/vuejs/vuex)
