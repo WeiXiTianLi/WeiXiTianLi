@@ -14,7 +14,7 @@ netlify（域名由 neilify 提供，页面由 neilify 构建，不会被墙，�
 
 ~~Github Pages: https://weixitianli.github.io/WeiXiTianTianLi/~~ （不再手动把编译后的文件推送到 GitHub 上了）
 
-## 项目依赖
+## 项目主要依赖
 
 - [Vue3](https://github.com/vuejs/vue)
 - [TypeScript](https://github.com/microsoft/TypeScript)
