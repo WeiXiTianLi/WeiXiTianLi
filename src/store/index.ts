@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { createStore } from "vuex";
 
 const store = createStore({
