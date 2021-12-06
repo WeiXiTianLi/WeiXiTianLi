@@ -8,7 +8,7 @@
 
 ## 域名
 
-主域名（由netlify构建，更新积极性：高)：https://weixitianlizhi.ren https://www.weixitianlizhi.ren
+主域名（由netlify构建，更新积极性：高)：https://weixitianlizhi.ren & https://www.weixitianlizhi.ren
 
 netlify（由neilify提供，不会被墙，更新积极性：高）：https://weixitianli.netlify.app/
 
