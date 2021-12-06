@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import router from '../router';
 
-let url = `${window.location.host}`;
+let url = `https://${window.location.host}`;
 const handleSelect = (key: any, keyPath: any) => {
   switch (keyPath[0]) {
     case '1':
