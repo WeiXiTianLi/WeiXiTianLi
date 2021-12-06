@@ -10,7 +10,7 @@
 
 主域名（由netlify构建，构建积极性：高)：https://weixitianlizhi.ren & https://www.weixitianlizhi.ren
 
-netlify（由neilify提供，不会被墙，构建积极性：高）：https://weixitianli.netlify.app/
+netlify（域名由neilify提供，页面由neilify构建，不会被墙，构建积极性：高）：https://weixitianli.netlify.app/
 
 腾讯云COS（手动提交文件太麻烦了，构建积极性：低）：https://yuanshen.weixitianlizhi.ren
 
