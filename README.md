@@ -8,10 +8,10 @@
 
 ## 域名
 
-主域名（由netlify构建，更新积极性：高)：https://weixitianlizhi.ren & https://www.weixitianlizhi.ren
+主域名（由netlify构建，构建积极性：高)：https://weixitianlizhi.ren & https://www.weixitianlizhi.ren
 
-netlify（由neilify提供，不会被墙，更新积极性：高）：https://weixitianli.netlify.app/
+netlify（由neilify提供，不会被墙，构建积极性：高）：https://weixitianli.netlify.app/
 
-腾讯云COS（手动提交文件太麻烦了，更新积极性：低）：https://yuanshen.weixitianlizhi.ren
+腾讯云COS（手动提交文件太麻烦了，构建积极性：低）：https://yuanshen.weixitianlizhi.ren
 
 ~~Github Pages: https://weixitianli.github.io/WeiXiTianTianLi/~~ （不再手动把编译后的文件推送到GitHub上了）
