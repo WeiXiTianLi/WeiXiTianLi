@@ -1,12 +1,7 @@
 <script setup lang="ts">
 import router from '../router';
 
-let url = `https://${window.location.host}`;
-/* 针对GitHub做的兼容 */
-if (/github/.test(url)) {
-  url += '/WeiXiTianTianLi/'
-}
-/* end */
+let url = `${window.location.host}`;
 const handleSelect = (key: any, keyPath: any) => {
   switch (keyPath[0]) {
     case '1':
