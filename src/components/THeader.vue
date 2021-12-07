@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import router from '../router';
 
-let url = `https://${window.location.host}`;
+const url = `https://${window.location.host}`;
 const handleSelect = (key: any, keyPath: any) => {
   switch (keyPath[0]) {
     case '1':
@@ -22,8 +22,8 @@ const handleSelect = (key: any, keyPath: any) => {
 
 <template>
   <el-menu mode="horizontal" @select="handleSelect">
-    <el-link :href="url" :underline="false">
-      <span class="title">天理地图</span>
+    <el-link class="title" :href="url" :underline="false">
+      <span>天理地图</span>
     </el-link>
     <el-menu-item index="1" style="margin-left: auto;">
       <span>使用说明</span>
@@ -99,5 +99,6 @@ svg {
 .title {
   font-size: var(--el-font-size-extra-large);
   font-weight: var(--el-font-weight-primary);
+  white-space: nowrap;
 }
 </style>
