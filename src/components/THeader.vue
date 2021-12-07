@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import router from '../router';
 import { ref, unref, onMounted, computed } from 'vue'
+import { Expand } from '@element-plus/icons'
 
 const url = `https://${window.location.host}`;
 const handleSelect = (key: any, keyPath: any) => {
@@ -103,7 +104,11 @@ smallMenu_show = unref(smallMenu_show)
       </svg>
     </el-link>
     <el-sub-menu v-else style="margin-left: auto;" @select="handleSelect">
-      <template #title>三</template>
+      <template #title>
+        <el-icon>
+          <expand />
+        </el-icon>
+      </template>
       <el-menu-item index="1">
         <span>使用说明</span>
       </el-menu-item>
@@ -178,6 +183,9 @@ smallMenu_show = unref(smallMenu_show)
 }
 .el-menu > .el-menu-item > .el-link {
   padding: 0 0px;
+}
+.el-menu > .el-menu-iem > .el-link > .el-link--inner {
+  height: 1rem;
 }
 svg {
   vertical-align: middle;
