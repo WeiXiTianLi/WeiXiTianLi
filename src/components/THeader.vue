@@ -88,7 +88,7 @@ const handleSelect = (key: any, keyPath: any) => {
 
 <style scoped>
 .el-link {
-  padding: 0 20px;
+  padding: 0 10px;
   transition-duration: 0.2s;
   color: var(--el-text-color-primary);
 }
