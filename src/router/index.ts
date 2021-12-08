@@ -6,15 +6,15 @@ const routes = [
     name: "home",
     component: () => import("../views/Home.vue"),
     meta: {
-      title: "首页 | 天理地图",
+      title: "首页 | WeiXiTianLi",
     },
   },
   {
-    path: "/readme",
-    name: "readme",
-    component: () => import("../views/Readme.vue"),
+    path: "/tianli_map/doc",
+    name: "doc",
+    component: () => import("../views/Doc.vue"),
     meta: {
-      title: "使用说明 | 天理地图",
+      title: "文档 | TianLi_Map",
     },
   },
 ];

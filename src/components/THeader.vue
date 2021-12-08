@@ -6,20 +6,22 @@ import { Expand } from '@element-plus/icons'
 const url = `https://${window.location.host}`;
 const handleSelect = (key: any, keyPath: any) => {
   switch (keyPath[0]) {
-    case '1':
-      router.push({ path: '/readme' });
+    case 'doc-TianLi_Map':
+      router.push({ path: '/tianli_map/doc' });
       break;
-    case '2':
-      switch (keyPath[1]) {
-        case '2-1':
-          window.open('https://gitee.com/Yu_Sui_Xian/GenshinImpact_AutoMap/attach_files/861886/download/GenshinImpact_AutoMap.zip')
-        case '2-2':
-          window.open('/download/GenshinImpact_AutoMap.zip')
-      }
+    case 'doc-YuanShen_TrackFish':
+      break;
+    case 'doc-YuanShen_PopupMove':
+      break;
+    case 'download-TianLi_Map':
+      break;
+    case 'download-YuanShen_TrackFish':
+      break;
+    case 'download-YuanShen_PopupMove':
       break;
   }
 }
-let smallMenu_show = ref(true)
+let menu_Collapse = ref(true)
 const screenWidth = ref(document.body.clientWidth)
 onMounted(() => {
   window.onresize = () => {
@@ -27,29 +29,39 @@ onMounted(() => {
   }
 })
 //@ts-ignore
-smallMenu_show.value = computed(() => {
+menu_Collapse.value = computed(() => {
   return screenWidth.value <= 700 ? true : false
 })
 //@ts-ignore
-smallMenu_show = unref(smallMenu_show)
+menu_Collapse = unref(menu_Collapse)
 </script>
 
 <template>
   <el-menu mode="horizontal" @select="handleSelect">
     <el-link class="title" :href="url" :underline="false">
-      <span>天理地图</span>
+      <span>WeiXiTianLi</span>
     </el-link>
-    <el-menu-item v-if="!smallMenu_show" index="1" style="margin-left: auto;">
-      <span>使用说明</span>
-    </el-menu-item>
-    <el-sub-menu v-if="!smallMenu_show" show-timeout="50" hide-timeout="50" index="2">
+    <el-sub-menu
+      v-if="!menu_Collapse"
+      show-timeout="50"
+      hide-timeout="50"
+      style="margin-left: auto;"
+      index="doc"
+    >
+      <template #title>文档</template>
+      <el-menu-item index="doc-TianLi_Map">TianLi_Map</el-menu-item>
+      <el-menu-item index="doc-YuanShen_TrackFish">YuanShen_TrackFish</el-menu-item>
+      <el-menu-item index="doc-YuanShen_PopupMove">YuanShen_PopupMove</el-menu-item>
+    </el-sub-menu>
+    <el-sub-menu index="download" v-if="!menu_Collapse" show-timeout="50" hide-timeout="50">
       <template #title>下载</template>
-      <el-menu-item index="2-1">Gitee</el-menu-item>
-      <el-menu-item index="2-2">Github</el-menu-item>
+      <el-menu-item index="download-TianLi_Map">TianLi_Map</el-menu-item>
+      <el-menu-item index="download-YuanShen_TrackFish">YuanShen_TrackFish</el-menu-item>
+      <el-menu-item index="download-YuanShen_PopupMove">YuanShen_PopupMove</el-menu-item>
     </el-sub-menu>
     <el-link
-      v-if="!smallMenu_show"
-      href="https://github.com/WeiXiTianLi/TianLi"
+      v-if="!menu_Collapse"
+      href="https://github.com/WeiXiTianLi"
       :underline="false"
       target="_blank"
     >
@@ -75,8 +87,8 @@ smallMenu_show = unref(smallMenu_show)
         />
       </svg>
     </el-link>
-    <el-link
-      v-if="!smallMenu_show"
+    <!--     <el-link
+      v-if="!menu_Collapse"
       href="https://gitee.com/Yu_Sui_Xian/GenshinImpact_AutoMap"
       :underline="false"
       target="_blank"
@@ -102,22 +114,26 @@ smallMenu_show = unref(smallMenu_show)
           points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"
         />
       </svg>
-    </el-link>
+    </el-link>-->
     <el-sub-menu v-else style="margin-left: auto;" @select="handleSelect">
       <template #title>
         <el-icon>
           <expand />
         </el-icon>
       </template>
-      <el-menu-item index="1">
-        <span style="line-height: 1rem">使用说明</span>
-      </el-menu-item>
-      <el-sub-menu show-timeout="50" hide-timeout="50" index="2">
-        <template #title>下载</template>
-        <el-menu-item index="2-1">Gitee</el-menu-item>
-        <el-menu-item index="2-2">Github</el-menu-item>
+      <el-sub-menu index="doc" show-timeout="50" hide-timeout="50" style="margin-left: auto;">
+        <template #title>文档</template>
+        <el-menu-item index="doc-TianLi_Map">TianLi_Map</el-menu-item>
+        <el-menu-item index="doc-YuanShen_TrackFish">YuanShen_TrackFish</el-menu-item>
+        <el-menu-item index="doc-YuanShen_PopupMove">YuanShen_PopupMove</el-menu-item>
       </el-sub-menu>
-      <el-link href="https://github.com/WeiXiTianLi/TianLi" :underline="false" target="_blank">
+      <el-sub-menu index="download" show-timeout="50" hide-timeout="50">
+        <template #title>下载</template>
+        <el-menu-item index="download-TianLi_Map">TianLi_Map</el-menu-item>
+        <el-menu-item index="download-YuanShen_TrackFish">YuanShen_TrackFish</el-menu-item>
+        <el-menu-item index="download-YuanShen_PopupMove">YuanShen_PopupMove</el-menu-item>
+      </el-sub-menu>
+      <el-link href="https://github.com/WeiXiTianLi" :underline="false" target="_blank">
         Github
         <svg
           class="icon outbound"
@@ -140,7 +156,7 @@ smallMenu_show = unref(smallMenu_show)
           />
         </svg>
       </el-link>
-      <el-link
+      <!--       <el-link
         href="https://gitee.com/Yu_Sui_Xian/GenshinImpact_AutoMap"
         :underline="false"
         target="_blank"
@@ -166,7 +182,7 @@ smallMenu_show = unref(smallMenu_show)
             points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"
           />
         </svg>
-      </el-link>
+      </el-link>-->
     </el-sub-menu>
   </el-menu>
 </template>
