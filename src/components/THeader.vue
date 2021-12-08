@@ -184,6 +184,9 @@ smallMenu_show = unref(smallMenu_show)
   padding-left: 10px;
   justify-content: flex-start;
 }
+span {
+  line-height: 1rem;
+}
 svg {
   vertical-align: middle;
 }
