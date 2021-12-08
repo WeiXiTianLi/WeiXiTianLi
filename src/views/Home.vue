@@ -38,7 +38,7 @@ const handleClick = (from: any) => {
       <el-button type="primary" @click="handleClick('download')" plain>下载</el-button>
       <el-button type="primary" @click="handleClick('readme')">使用说明</el-button>
     </p>
-    <el-dialog v-model="downloadDialogVisible" title="下载" width="30%">
+    <el-dialog v-model="downloadDialogVisible" title="下载">
       <span>您打算从哪个源下载？</span>
       <template #footer>
         <span>

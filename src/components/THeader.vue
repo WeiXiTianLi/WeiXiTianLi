@@ -110,7 +110,7 @@ smallMenu_show = unref(smallMenu_show)
         </el-icon>
       </template>
       <el-menu-item index="1">
-        <span>使用说明</span>
+        <span style="line-height: 1rem">使用说明</span>
       </el-menu-item>
       <el-sub-menu show-timeout="50" hide-timeout="50" index="2">
         <template #title>下载</template>
@@ -183,9 +183,6 @@ smallMenu_show = unref(smallMenu_show)
   padding: 10px;
   padding-left: 10px;
   justify-content: flex-start;
-}
-span {
-  line-height: 1rem;
 }
 svg {
   vertical-align: middle;
