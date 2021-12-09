@@ -5,5 +5,4 @@
 
 如图使用
 
-![github](https://github.com/WeiXiTainLi/YuanShen_PopupMove/blob/master/Doc/show.gif)
-![gitee](https://gitee.com/Yu_Sui_Xian/YuanShen_PopupMove/blob/master/Doc/show.gif)
+![github](./show.gif)
