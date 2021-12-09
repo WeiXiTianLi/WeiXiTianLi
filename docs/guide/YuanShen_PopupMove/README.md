@@ -5,4 +5,4 @@
 
 如图使用
 
-![github](./show.gif)
+![](./show.gif)
