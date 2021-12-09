@@ -30,5 +30,8 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
     ],
     repo: "https://github.com/WeiXiTianLi",
+    docsRepo: 'https://github.com/WeiXiTianLi/WeiXiTianTianLi',
+    docsDir: 'docs',
+    docsBranch: 'master'
   },
 });
