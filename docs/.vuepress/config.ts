@@ -8,7 +8,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   head: [["link", { rel: "icon", href: "images/logo.png" }]],
 
   themeConfig: {
-    logo: "images/logo.png",
+    logo: null,
     navbar: [
       {
         text: "文档",
