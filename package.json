@@ -1,0 +1,24 @@
+{
+  "name": "weixitianli",
+  "version": "2.3.0",
+  "description": "WeiXiTianLi的网页",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress-vite dev docs",
+    "docs:build": "vuepress-vite build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeiXiTianLi/WeiXiTianTianLi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeiXiTianLi/WeiXiTianTianLi/issues"
+  },
+  "homepage": "https://github.com/WeiXiTianLi/WeiXiTianTianLi#readme",
+  "devDependencies": {
+    "vuepress-vite": "^2.0.0-beta.27"
+  }
+}

@@ -1,0 +1,24 @@
+import { defineUserConfig } from "vuepress-vite";
+import type { DefaultThemeOptions } from "vuepress-vite";
+
+export default defineUserConfig<DefaultThemeOptions>({
+  lang: "zh-CN",
+  title: "WeiXiTianLi",
+  description: "WeiXiTianLi的网页",
+  head: [["link", { rel: "icon", href: "images/logo.png" }]],
+
+  themeConfig: {
+    logo: "images/logo.png",
+    navbar: [
+      {
+        text: "文档",
+        children: [
+          {
+            text: "TianLi_Map",
+            link: '/guide/'
+          },
+        ],
+      },
+    ],
+  },
+});
