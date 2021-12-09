@@ -15,10 +15,20 @@ export default defineUserConfig<DefaultThemeOptions>({
         children: [
           {
             text: "TianLi_Map",
-            link: '/guide/'
+            link: "/guide/TianLi_Map",
+          },
+        ],
+      },
+      {
+        text: "下载",
+        children: [
+          {
+            text: "TianLi_Map",
+            link: "/download/TianLi_Map",
           },
         ],
       },
     ],
+    repo: "https://github.com/WeiXiTianLi",
   },
 });

@@ -5,11 +5,11 @@ heroImage: /images/hero.png
 heroText: WeiXiTianLi
 tagline: 维系天理
 actions:
-  - text: 文档
-    link: /zh/guide/TianLi_Map
-    type: primary
   - text: Github
     link: https://github.com/WeiXiTianLi
+    type: primary
+  - text: Gitee
+    link: https://gitee.com/Yu_Sui_Xian
     type: secondary
 features:
   - title: TianLi_Map
