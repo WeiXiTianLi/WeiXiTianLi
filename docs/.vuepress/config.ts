@@ -17,6 +17,14 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: "TianLi_Map",
             link: "/guide/TianLi_Map",
           },
+          {
+            text: "YuanShen_TrackFish",
+            link: "/guide/YuanShen_TrackFish",
+          },
+          {
+            text: "YuanShen_PopupMove",
+            link: "/guide/YuanShen_PopupMove",
+          },
         ],
       },
       {
@@ -26,12 +34,20 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: "TianLi_Map",
             link: "/download/TianLi_Map",
           },
+          {
+            text: "YuanShen_TrackFish",
+            link: "/download/YuanShen_TrackFish",
+          },
+          {
+            text: "YuanShen_PopupMove",
+            link: "/download/YuanShen_PopupMove",
+          },
         ],
       },
     ],
     repo: "https://github.com/WeiXiTianLi",
-    docsRepo: 'https://github.com/WeiXiTianLi/WeiXiTianTianLi',
-    docsDir: 'docs',
-    docsBranch: 'master'
+    docsRepo: "https://github.com/WeiXiTianLi/WeiXiTianTianLi",
+    docsDir: "docs",
+    docsBranch: "master",
   },
 });
