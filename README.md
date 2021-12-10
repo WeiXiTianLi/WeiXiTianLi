@@ -4,6 +4,8 @@
 
 是[WeiXiTianLi](https://github.com/WeiXiTianLi)的[网页](https://weixitianlizhi.ren)
 
+该站点基于 [Vuepress](https://v2.vuepress.vuejs.org/zh/) 构建而成
+
 ## 域名
 
 主域名（由 netlify 构建，构建积极性：高）：https://weixitianlizhi.ren & https://www.weixitianlizhi.ren
