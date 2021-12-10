@@ -35,4 +35,27 @@ export const en: NavbarConfig = [
       },
     ],
   },
+  {
+    text: "Communication",
+    children: [
+      {
+        text: "QQ Group",
+        children: [
+          {
+            text: "538198823",
+            link: "https://jq.qq.com/?_wv=1027&k=PBb6IKIY",
+          },
+        ],
+      },
+      {
+        text: "Email",
+        children: [
+          {
+            text: "ysx20201029@163.com",
+            link: "ysx20201029@163.com",
+          },
+        ],
+      },
+    ],
+  },
 ];
