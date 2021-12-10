@@ -18,5 +18,5 @@ features:
     details: 基于32鼠标的自动钓鱼程序
   - title: YuanShen_PopupMove
     details: 无边框原神窗口的移动工具
-footer: Made by GengGode
+footer: Made by WeiXiTianLi
 ---
