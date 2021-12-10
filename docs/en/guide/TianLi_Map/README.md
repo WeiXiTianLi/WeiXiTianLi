@@ -2,96 +2,93 @@
 title: TianLi_Map
 ---
 
-# 原神自动地图 TianLi_Map [![Build status](https://ci.appveyor.com/api/projects/status/8kmemyn4jssya2xs?svg=true)](https://ci.appveyor.com/project/GengGode/genshinimpact-automap)
+# TianLi_Map [![Build status](https://ci.appveyor.com/api/projects/status/8kmemyn4jssya2xs?svg=true)](https://ci.appveyor.com/project/GengGode/genshinimpact-automap)
 
-- 自动发现小地图上出现的神瞳并记录
+- Automatically detect the gods that appear on a small map and record
 
-- 自动记忆神瞳是否收集，判断显示哪些神瞳没被发现
+- The automatic memory of the gods collected, and it is determined which gods have not been discovered.
 
-- 神瞳已收集的话，神瞳就会变成半透明。
+- If God has collected, God will become translucent.
 
-- `Alt+T` 或者地图任意位置左键双击开启关闭自动追踪，如果显示神瞳的话就会自动开始识别记录。
+- `Alt + T` or map Arbitrary position left mart button Double-click to turn the automatic tracking, if you display the gods, you will automatically start the identification record.
 
-- 开启自动追踪，右下角图标会变成蓝色，根据电脑性能，3 至 60 秒即可加载完成，悬浮窗会自动显示角色所在位置的地图
+- Turn on automatic tracking, the lower right corner icon will become blue, depending on the computer performance, 3 to 60 seconds can be loaded, the floating window will automatically display the map in the role
 
-## 使用方法 / Shortcuts
+## Instructions / Shortcuts
 
-- `Alt + T` 开启关闭自动追踪
+- `Alt + T` Turn on automatic tracking
 
-- `Alt + F` 添加删除自定义标记
+- `Alt + F` Add Delete Custom Tag
 
-- `Alt + Enter` 切换为无边框模式
+- `Alt + Enter` Switch to borderless pattern
 
-- `Alt + M` 截图(Debug 用)
+- `Alt + M` screenshot (debug)
 
-- `Alt + F8` 选择原神游戏窗口
+- `Alt + F8` Select the original god game window
 
-- `左键拖动`地图
+- `Left button drag`
 
-- `滚轮` 缩放地图显示
+- `Roller` Zoom map display
 
-- `中键`移动窗口位置
+- `Middle key` Mobile window location
 
-- `左键双击`左上角派蒙退出
+- `Left button double click on the left corner` to exit
 
-## 更新记录
+## Update record
 
-```
-    2021.10.03.21:52 添加了免责声明
-    2021.10.03.21:45 添加了对【腾讯云游戏】的支持
-    ---- 之前的忘了
-```
+    2021.10.03.21:52 Added a disclaimer
+    2021.10.03.21:45 Added support for [Tencent Cloud Game]
 
-## 无法使用？
+## Not available?
 
-1. 项目仅在有限的条件下测试过，如需排查错误，强烈建议按照以下描述进行环境配置。
-   - 原神客户端 > 右上角派蒙 > 设置 > 抗锯齿，设置为 SMAA
-   - 原神客户端 > 右上角派蒙 > 设置 > 分辨率，设置为 1920x1080
-   - 系统 > 显示设置 > 文字缩放，设置为 100%
-2. 请查看：[视频教程](#视频教程)
-3. 提交[Issues](https://github.com/GengGode/TianLi_Map/issues)
-4. 无论有没有问题，你都可以加群[♂](https://jq.qq.com/?_wv=1027&k=PBb6IKIY)
+1. The project is only tested under limited conditions. If you need to troubleshoot errors, it is highly recommended to configure environmental configuration as follows.
+   - Original Word Client> Right Hole Pist> Settings> Anti-aliasing, set to SMAA
+   - Original God Client> On the right corner, Pishan> Setting> resolution, set to 1920x1080
+   - System> Display Settings> Text Zoom, Set to 100%
+2. Check: [Video Tutorial](#video-tutorial)
+3. Submit [Issues](https://github.com/GengGode/TianLi_Map/issues)
+4. Whether there is a problem or not, you can add groups[♂](#communication)
 
 ## Devs
 
-[DLL 动态链接库](https://github.com/GengGode/GenshinImpact_AutoTrack_DLL)
+[DLL dynamic link library](https://github.com/GengGode/GenshinImpact_AutoTrack_DLL)
 
 <details>
-  <summary>此项目的开发</summary>
- 解压resource.rar在项目目录下，释放资源文件，否则编译不过。
- 编译 MSBuild 即可，需要VS安装Qt VS Tools插件。
+  <summary>Development of this project</summary>
+ Unzip resource.rar in the project directory, release the resource file, otherwise compile.
+ Compile MSBuild, you need to install the QT VS Tools plugin.
 
-### 已经实现
+### Already implemented
 
-- [√] 通过游戏内小地图，自动识别角色所在位置以及角色朝向
+- [√] The automatic identification UID
 
-- [√] 添加了自动识别 UID
+- [√] detection game status is added over the location of the game and the role of the game and the role direction
 
-- [√] 检测游戏状态
+- [√] to detect the game status
 
-- [√] 添加标记
+- [√] Add tag
 
-- [√] 缩放改为以指针为中心
+- [√] Zoom change to the pointerCenter
 
-- [√] 根据数据库显示周围资源分布
+- [√] According to the database display surrounding resource distribution
 
-- [√] 保存存档
+- [√] Save Archive
 
-- [√] 保存日志，包含可追溯数据，如存档损坏，可以此追溯
+- [√] Save the log, contains the traceability data, such as archive damage, can be traced back
 
-### 计划实现
+### TODO
 
-- [ ] 添加更多点位
+- [ ] Add more points
 
-- [ ] 优化 UI（慢慢来）
+- [ ] Optimize UI（take your time）
 
-- [ ] 优化匹配
+- [ ] Optimization match
 
-- [ ] 添加图论部分实现导航收集某种资源的最短路径
+- [ ] Add a chart partial implementation navigation to collect the shortest path for some resource
 
-- [ ] 添加惯性导航部分
+- [ ] Add inertial navigation part
 
-### 开发环境
+### Development environment
 
 - Visual Studio 2017
 
@@ -99,69 +96,69 @@ title: TianLi_Map
 
 - opencv4.5.0
 
-### 工作原理
+### How it works
 
-本地图是通过调用 Windows Api 来对原神的游戏窗口进行截屏，然后对画面进行图像处理，对地图与世界地图进行匹配来实现的自动追踪。
+This map uses the Windows API to screen the game window, and then perform image processing on the screen, and match the map with the world map to automatically track.
 
-通过 Api 来设置地图为顶层窗口，使其保持在原神游戏窗口的上方。
+The map is set as the top window by the API to keep it above the original gang game window.
 
-目前所有涉及对原神窗口的操作如下：
+All current operations involving the Genshin Impact window are as follows：
 
 ```C++
- giHandle = FindWindowA(NULL, "原神"); //获取原神窗口句柄
+ giHandle = FindWindowA(NULL, "原神"); //Get the Genshin Impact window handle
 
- giIsDisplayFlag = !IsIconic(giHandle); //判断原神是否处于最小化
+ giIsDisplayFlag = !IsIconic(giHandle); //Determined whether the Genshin Impact is under minimization
 
- GetWindowRect(giHandle, &giRect); //获取原神窗口区域
+ GetWindowRect(giHandle, &giRect); //Get the Genshin Impact window area
 
- HDC hScreen = GetDC(giHandle); //获取原神窗口画面，作用是截屏获取原神画面
+ HDC hScreen = GetDC(giHandle); //Get the Genshin Impact window screen, the role is to get the Genshin Impact screen.
 
- SetForegroundWindow(giHandle); //激活原神窗口为焦点
+ SetForegroundWindow(giHandle); //Activate the Genshin Impact window is focus
 
- if (giHandle != NULL) //判断原神窗口句柄是否为空
+ if (giHandle != NULL) //Judging whether the Genshin Impact window handle is empty
 
 ```
 
-### 系统权限
+### System permissions
 
-之后的开发中将会涉及到数据文件的保存与读取，目前会在 Temp（目前版本应该会改到 My Game 目录下，Temp 下容易被删除）目录中建立名为 GenshinImpactAutoMap 的文件夹，并在该文件夹中建立数据存档。
+The subsequent development will involve saving and reading of the data file. At present, it is currently in the TEMP (current version), which is easy to delete under the MY GAME directory.Data archiving is created in this folder.
 
-（说不定会改到 AppData 下的 LocalLow 里）
+（Maybe it will change to Locallow under AppData）
 
-如：`C:\Users\%USERNAME%\AppData\Local\Temp\GenshinImpactAutoMap`
+like：`C:\Users\%USERNAME%\AppData\Local\Temp\GenshinImpactAutoMap`
 
-日后可能会开发 GPU 加速图像处理的功能，需要使用 GPU 运算。
+In the future, you may develop the function of the GPU accelerated image processing, you need to use the GPU operation.
 
-目前为了与“「空荧酒馆」原神地图”客户端通信还使用了本机的 23333 端口用来发送原神角色的位置、朝向以及 UID。
+In order to use the "Empty Ball" original god map "client communication, the 23333 port of this machine is used to send the position, orientation and UID of the original god role.
 
-还有读写文件存档。
+There is also a read and write file archive.
 
-除此之外不存在其他系统资源的使用，也没有获取系统权限的需求。
+In addition, there is no use of other system resources, and there is no need to obtain system authority.
 
 </details>
 
-## 已知问题
+## Known issues
 
-- 手柄适配 无
-- 除 1920 \* 1080 外分辨率的 uid 识别 无
-- 除 16 ：9 分辨率外的自动追踪 无
+- Handle adaptation none
+- Uid recognition with resolution other than 1920 \ * 1080 none
+- Automatic tracking except 16:9 resolution none
 
-## 视频教程
+## Video tutorial
 
 ### Bilibili
 
-- [安装](https://www.bilibili.com/video/BV1Wy4y1x754)
+- [Install](https://www.bilibili.com/video/BV1Wy4y1x754)
 
-- [使用](https://www.bilibili.com/video/BV1ar4y1A7c5)
+- [Use](https://www.bilibili.com/video/BV1ar4y1A7c5)
 
-## 交流
+## Communication
 
-#### QQ 群：[538198823](https://jq.qq.com/?_wv=1027&k=PBb6IKIY)
+#### QQ Group：[538198823](https://jq.qq.com/?_wv=1027&k=PBb6IKIY)
 
-## 免责声明
+## Disclaimers
 
-本项目不提供任何形式的保证。所有与使用本软件的直接风险均由用户承担。
+The project does not provide any form of guarantee. All direct risks associated with the use of the software shall be borne by the user.
 
-如果您发现本软件包含错误或者有更好的建议，请联系我以便这些错误和建议得到及时的应用。
+If you find that the software contains errors or have better suggestions, please contact me so that these errors and suggestions can be applied in time.
 
-联系方式：ysx20201029@163.com
+Contact information：ysx20201029@163.com

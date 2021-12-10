@@ -50,7 +50,7 @@ title: TianLi_Map
    - 系统 > 显示设置 > 文字缩放，设置为 100%
 2. 请查看：[视频教程](#视频教程)
 3. 提交[Issues](https://github.com/GengGode/TianLi_Map/issues)
-4. 无论有没有问题，你都可以加群[♂](https://jq.qq.com/?_wv=1027&k=PBb6IKIY)
+4. 无论有没有问题，你都可以加群[♂](#交流)
 
 ## Devs
 

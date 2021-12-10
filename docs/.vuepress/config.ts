@@ -10,7 +10,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       title: "WeiXiTianLi",
       description: "WeiXiTianLi的网页",
     },
-    en: {
+    "/en/": {
       lang: "en-US",
       title: "WeiXiTianLi",
       description: "WeiXiTianLi's webpage",
@@ -21,13 +21,18 @@ export default defineUserConfig<DefaultThemeOptions>({
     logo: null,
     locales: {
       "/": {
+        navbar: navbar.zh,
         selectLanguageText: "选择语言",
         selectLanguageAriaLabel: "选择语言",
         selectLanguageName: "简体中文",
       },
-      "/en/": {},
+      "/en/": {
+        navbar: navbar.en,
+        selectLanguageText: "Languages",
+        selectLanguageAriaLabel: "Languages",
+        selectLanguageName: "English",
+      },
     },
-    navbar: navbar.zh,
     repo: "WeiXiTianLi/WeiXiTianLi",
     docsDir: "docs",
     docsBranch: "master",

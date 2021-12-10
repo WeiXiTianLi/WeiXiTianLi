@@ -2,36 +2,36 @@ import type { NavbarConfig } from "@vuepress/theme-default";
 
 export const en: NavbarConfig = [
   {
-    text: "文档",
+    text: "Docs",
     children: [
       {
         text: "TianLi_Map",
-        link: "/zh/guide/TianLi_Map",
+        link: "/en/guide/TianLi_Map",
       },
       {
         text: "YuanShen_TrackFish",
-        link: "/zh/guide/YuanShen_TrackFish",
+        link: "/en/guide/YuanShen_TrackFish",
       },
       {
         text: "YuanShen_PopupMove",
-        link: "/zh/guide/YuanShen_PopupMove",
+        link: "/en/guide/YuanShen_PopupMove",
       },
     ],
   },
   {
-    text: "下载",
+    text: "Download",
     children: [
       {
         text: "TianLi_Map",
-        link: "/zh/download/TianLi_Map",
+        link: "/en/download/TianLi_Map",
       },
       {
         text: "YuanShen_TrackFish",
-        link: "/zh/download/YuanShen_TrackFish",
+        link: "/en/download/YuanShen_TrackFish",
       },
       {
         text: "YuanShen_PopupMove",
-        link: "/zh/download/YuanShen_PopupMove",
+        link: "/en/download/YuanShen_PopupMove",
       },
     ],
   },
