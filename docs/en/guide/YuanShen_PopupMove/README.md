@@ -4,6 +4,6 @@ title: YuanShen_PopupMove
 
 # YuanShen_PopupMove
 
-无边框原神窗口的移动工具
+Mobile tools with borderless Genshin Impact windows
 
-左键移动，右键退出
+Left click to move and right click to exit
