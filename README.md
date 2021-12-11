@@ -1,7 +1,6 @@
 # WeiXiTianLi
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0adbff58-79ac-491c-80db-4187c2be55a0/deploy-status)](https://app.netlify.com/sites/weixitianli/deploys)
-[![docs](https://github.com/WeiXiTianLi/WeiXiTianLi/actions/workflows/docs.yml/badge.svg?event=workflow_dispatch)](https://github.com/WeiXiTianLi/WeiXiTianLi/actions/workflows/docs.yml)
 
 是[WeiXiTianLi](https://github.com/WeiXiTianLi)的[网页](https://weixitianlizhi.ren)
 
