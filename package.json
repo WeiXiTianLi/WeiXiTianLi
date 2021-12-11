@@ -4,20 +4,12 @@
   "description": "WeiXiTianLi的网页",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress-vite dev docs",
     "docs:build": "vuepress-vite build docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WeiXiTianLi/WeiXiTianTianLi.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WeiXiTianLi/WeiXiTianTianLi/issues"
-  },
-  "homepage": "https://github.com/WeiXiTianLi/WeiXiTianTianLi#readme",
+  "repository": "https://github.com/WeiXiTianLi/WeiXiTianLi.git",
+  "author": "zhouhaixian <2223540637@qq.com>",
+  "license": "MIT",
   "devDependencies": {
     "vuepress-vite": "^2.0.0-beta.27"
   }
