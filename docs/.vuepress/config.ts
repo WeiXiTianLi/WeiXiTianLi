@@ -57,4 +57,5 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsDir: "docs",
     docsBranch: "master",
   },
+  contributors: false,
 });
