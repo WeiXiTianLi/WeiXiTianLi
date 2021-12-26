@@ -3,7 +3,7 @@ import type { DefaultThemeOptions } from "vuepress-vite";
 import { navbar } from "./configs";
 
 export default defineUserConfig<DefaultThemeOptions>({
-  head: [["link", { rel: "icon", href: "images/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/images/logo.png" }]],
   locales: {
     "/": {
       lang: "zh-CN",
