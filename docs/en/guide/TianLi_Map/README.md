@@ -36,8 +36,10 @@ title: TianLi_Map
 
 ## Update record
 
-    2021.10.03.21:52 Added a disclaimer
-    2021.10.03.21:45 Added support for [Tencent Cloud Game]
+```text
+2021.10.03.21:52 Added a disclaimer
+2021.10.03.21:45 Added support for [Tencent Cloud Game]
+```
 
 ## Not available?
 
