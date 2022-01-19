@@ -52,7 +52,7 @@ export const en: NavbarConfig = [
         children: [
           {
             text: "ysx20201029@163.com",
-            link: "ysx20201029@163.com",
+            link: "mailto:ysx20201029@163.com",
           },
         ],
       },
