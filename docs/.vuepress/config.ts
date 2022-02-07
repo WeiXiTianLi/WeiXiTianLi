@@ -59,4 +59,17 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsDir: "docs",
     docsBranch: "master",
   },
+  plugins: [
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: '搜索文档',
+            hotKeys: ['/']
+          }
+        }
+      }
+    ]
+  ]
 });

@@ -11,6 +11,7 @@
   "author": "zhouhaixian <2223540637@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress-vite": "^2.0.0-beta.27"
+    "@vuepress/plugin-search": "^2.0.0-beta.35",
+    "vuepress-vite": "^2.0.0-beta.6"
   }
 }
