@@ -4,8 +4,8 @@
   "description": "WeiXiTianLi的网页",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress-vite dev docs",
-    "docs:build": "vuepress-vite build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": "https://github.com/WeiXiTianLi/WeiXiTianLi.git",
   "author": "zhouhaixian <2223540637@qq.com>",
