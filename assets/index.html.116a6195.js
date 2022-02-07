@@ -1,0 +1,1 @@
+const e={key:"v-950cdf60",path:"/en/download/YuanShen_PopupMove/",title:"YuanShen_PopupMove",lang:"en-US",frontmatter:{title:"YuanShen_PopupMove"},excerpt:"",headers:[],git:{updatedTime:1639136723e3,contributors:[{name:"zhouhaixian",email:"2223540637@qq.com",commits:1}]},filePathRelative:"en/download/YuanShen_PopupMove/README.md"};export{e as data};

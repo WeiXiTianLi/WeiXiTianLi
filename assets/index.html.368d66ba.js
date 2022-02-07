@@ -1,0 +1,1 @@
+const e={key:"v-c0419e6c",path:"/en/guide/YuanShen_PopupMove/",title:"YuanShen_PopupMove",lang:"en-US",frontmatter:{title:"YuanShen_PopupMove"},excerpt:"",headers:[],git:{updatedTime:1639141893e3,contributors:[{name:"zhouhaixian",email:"2223540637@qq.com",commits:2}]},filePathRelative:"en/guide/YuanShen_PopupMove/README.md"};export{e as data};
