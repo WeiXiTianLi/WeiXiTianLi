@@ -1,22 +1,25 @@
 ---
 title: 首页
 home: true
-heroImage: /images/hero.png
-heroText: WeiXiTianLi
+heroImage: /images/hero_tianli.png
+heroText: 维系天理
 tagline: 维系天理
 actions:
   - text: Github
     link: https://github.com/WeiXiTianLi
     type: primary
-  - text: Gitee
-    link: https://gitee.com/Yu_Sui_Xian
+  - text: 下载站
+    link: https://download.weixitianli.com
     type: secondary
 features:
-  - title: TianLi_Map
-    details: 原神自动地图
-  - title: YuanShen_TrackFish
-    details: 基于32鼠标的自动钓鱼程序
+  - title: 天理启动器
+    details: GenshinImpactNaturalLaw，自定义启动器
+  - title: 原神自动地图
+    details: GenshinImpact_AutoMap 
+  - title: 天理地图
+    details: GenshinImpact_TianLi，新的HUD系统
   - title: YuanShen_PopupMove
     details: 无边框原神窗口的移动工具
+
 footer: MIT Licensed | Made by WeiXiTianLi
 ---
