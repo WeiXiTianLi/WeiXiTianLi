@@ -1,0 +1,1 @@
+const e={key:"v-5682d1e4",path:"/en/guide/YuanShen_TrackFish/",title:"YuanShen_TrackFish",lang:"en-US",frontmatter:{title:"YuanShen_TrackFish"},excerpt:"",headers:[],git:{updatedTime:1639141893e3,contributors:[{name:"zhouhaixian",email:"2223540637@qq.com",commits:2}]},filePathRelative:"en/guide/YuanShen_TrackFish/README.md"};export{e as data};
